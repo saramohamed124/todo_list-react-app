@@ -1,0 +1,9 @@
+npm i gh-pages --save-dev
+
+"homepage":"https://saramohamed124.github.io/todo_list-react-app"
+
+scripts:
+"predeploy":"npm run build",
+"deploy":"gh-pages -d build"
+
+npm run deploy
